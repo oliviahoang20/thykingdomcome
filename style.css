@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+    background-color: rgba(255, 253, 250, 1);
+}
+
+p {    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    margin: 10px;
+    line-height: 1.4em;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1 {
+	font-family: fantasy;
+	font-size: 4em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:  600px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	margin-left: 10px;
+	
+}
+
+h2 { 
+	font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+	color:#00ce00;
+    margin: 40px;
+	text-align: center;
+}
+
+img {
+    float: left;
+	width: 450px;
+	height: 300px;
+    object-fit: cover;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
